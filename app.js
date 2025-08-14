@@ -26,7 +26,7 @@ function mostrarLista(){
     for (let i = 0; i < amigos.length; i++) {
         let li = document.createElement("li");
         li.textContent = amigos[i];
-        list.appendChild(li);
+        lista.appendChild(li);
     }
 }
 
