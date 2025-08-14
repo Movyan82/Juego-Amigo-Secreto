@@ -35,5 +35,10 @@ function sortearAmigo(){
         alert(`No hay amigos en la lista para el sorteo. Ingrese los nombres de los amigos.`);
         return;
     } 
-    let aleatorio
+    let indiceAleatorio = Math.floor(Math.ramdom() * amigos.length);
+
+    let amigoSorteado = amigo[indiceAleatorio];
+
+    document.getElementById(`resultado`).innerHTML =
+        `<li>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong> 🎉</li>`;
 }
