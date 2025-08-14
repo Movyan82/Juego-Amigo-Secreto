@@ -42,3 +42,4 @@ function sortearAmigo(){
     document.getElementById(`resultado`).innerHTML =
         `<li>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong> 🎉</li>`;
 }
+
