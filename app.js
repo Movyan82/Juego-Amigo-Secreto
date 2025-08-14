@@ -35,7 +35,7 @@ function sortearAmigo(){
         alert(`No hay amigos en la lista para el sorteo. Ingrese los nombres de los amigos.`);
         return;
     } 
-    let indiceAleatorio = Math.floor(Math.ramdom() * amigos.length);
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
     let amigoSorteado = amigo[indiceAleatorio];
 
